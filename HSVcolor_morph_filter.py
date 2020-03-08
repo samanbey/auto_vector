@@ -23,7 +23,7 @@ def midline(img):
     plt.show()
 
 #Trackbars
-cv2.namedWindow('szinek')
+cv2.namedWindow('colors')
 cv2.createTrackbar('LH', 'colors', 0, 255, nothing)
 cv2.createTrackbar('UH', 'colors', 255, 255, nothing)
 cv2.createTrackbar('LS', 'colors', 0, 255, nothing)
